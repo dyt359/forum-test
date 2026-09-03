@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# 虚拟环境
+.venv/
+venv/
+env/
+
+# 截图产物: 按次留存的日期目录不上传, 保留 latest/ 作为报告引用
+images/[0-9][0-9][0-9][0-9]-[0-9][0-9]-[0-9][0-9]/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+.workbuddy/
+
+# 系统
+.DS_Store
+Thumbs.db
+
+# 测试运行日志
+*.log

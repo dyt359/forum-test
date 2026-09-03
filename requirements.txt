@@ -1,0 +1,8 @@
+# 论坛系统自动化测试 —— Python 依赖环境文件
+# 实测环境: Python 3.10.20 (Anaconda env: test) + Chrome 151 + Windows 11
+# 安装方式: pip install -r requirements.txt
+# 其余依赖(sys/os/re/time/datetime/urllib)均为 Python 标准库, 无需安装
+
+selenium>=4.0.0            # 实测 4.0.0    WebDriver 浏览器自动化
+webdriver-manager>=4.0.0   # 实测 4.1.2    自动匹配并下载 chromedriver
+PyMySQL>=1.0.0             # 实测 1.2.0    common/DBUtil.py 连 MySQL 清理测试用户
